@@ -938,4 +938,32 @@ export const LendingPoolConfig = {
             farmingPoolRewardsTknAccountB: new PublicKey('5GhnJNhPU4FeAeX8zPjEGboSHWJcnu9JsqSzNDeYMb4q'),
         }
     },
+
+    'SONAR': {
+        programId : lendingPoolProgramId,
+        marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+        marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+        marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
+
+        tknMint: tokens.SONAR.mint,
+
+        lendingPoolInfoAccount: new PublicKey('3USSy3sAZSCnUiCZJaTFt5hCHWSw87kg8tNPaEZh1p9D'),
+        lendingPoolTknAccount: new PublicKey('2F2yrLZQa3av7PxW7vdqiYBV4AwTbkCdswgN2BYGgtvs'),
+        lendingPoolFeeAccount: new PublicKey('2F2yrLZQa3av7PxW7vdqiYBV4AwTbkCdswgN2BYGgtvs'),
+        lendingPoolShareMint: new PublicKey('FvHrhBTTgo7q8uDX7gN5f7YzSXMrf3mwYtkay5NvkJzg'),
+        lendingPoolShareAccount: new PublicKey('DPMixAHcMsryStgytYBhvvtR2WbvyRxkMwG147NmXEPS'),
+        lendingPoolCreditMint: new PublicKey('HsKN1EC5zcArg1yoq1tMg7JKfxPW9m644mqCphrbLMC'),
+        lendingPoolCreditAccount: new PublicKey('7zqtZ8LhBYUUXoDCwDFcdLgNkYo8tZZqTdoFJqAL5ie8'),
+
+        rewardsPool: {
+            farmingPoolAccount: new PublicKey('Fa4k8YVF4MKQt7DMrnJSRHHG2ffaGbNEJCYegf9bX548'),
+            farmingPoolAuthority: new PublicKey('E1251uikpS6o6YebAy55DqQP3T9Eb57vWdSQ55ruSrqo'),
+            farmingPoolStakeTknMint: new PublicKey('FvHrhBTTgo7q8uDX7gN5f7YzSXMrf3mwYtkay5NvkJzg'),
+            farmingPoolStakeTknAccount: new PublicKey('xfrTgSaJnDaZMMoDSowbVQdKrxu8aNxxw2CiQ3Dzm3x'),
+            farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccount: new PublicKey('AxdF3rEjwggqz7gtLQqossiyGVwduSskBceCEJSrHxUH'),
+            farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccountB: new PublicKey('3zjufftYdJkQaZohD4Entvsj4k4QkcBKSQ3kaNwfLPF7'),
+        }
+    },
 }
