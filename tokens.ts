@@ -335,6 +335,15 @@ export const tokens = {
         scale: 9,
         cgId: "genopets"
     },
+
+    SONAR: {
+        tag: 'SONAR',
+        name: 'SONAR',
+        mint: new PublicKey('sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE'),
+        scale: 9,
+        cgId: "sonarwatch"
+    }
+
 }
 
 export function getTokenMint(tag) {
