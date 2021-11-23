@@ -1,2 +1,2 @@
 # francium-pubkeys
-francium-pubkeys-and-idls
+francium-pubkeys
