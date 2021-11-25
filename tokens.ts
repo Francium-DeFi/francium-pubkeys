@@ -342,7 +342,32 @@ export const tokens = {
         mint: new PublicKey('sonarX4VtVkQemriJeLm6CKeW3GDMyiBnnAEMw1MRAE'),
         scale: 9,
         cgId: "sonarwatch"
-    }
+    },
+
+    DFL: {
+        tag: 'DFL',
+        name: 'DeFi Land',
+        mint: new PublicKey('DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh'),
+        scale: 9,
+        cgId: "defi-land"
+    },
+
+    stSOL: {
+        tag: 'stSOL',
+        name: 'stSOL',
+        mint: new PublicKey('7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj'),
+        scale: 9,
+        cgId: "lido-staked-sol"
+    },
+
+    wstETH: {
+        tag: 'wstETH',
+        name: 'wstETH',
+        mint: new PublicKey('ZScHuTtqZukUrtZS43teTKGs2VqkKL8k4QCouR2n6Uo'),
+        scale: 8,
+        cgId: "staked-ether"
+    },
+
 
 }
 
