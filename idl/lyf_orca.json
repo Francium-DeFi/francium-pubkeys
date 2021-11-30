@@ -1161,7 +1161,7 @@
       ]
     },
     {
-      "name": "unstakeLp1",
+      "name": "unstakeLpWithType",
       "accounts": [
         {
           "name": "userMainAccount",
