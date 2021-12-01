@@ -1051,4 +1051,33 @@ export const LendingPoolConfig = {
             farmingPoolRewardsTknAccountB: new PublicKey('FAViQgPJLzNBLQHV7RnMARxYkwgh3Gd55zMtgjgbYnkx'),
         }
     },
+
+    'wbWBNB': {
+        programId : lendingPoolProgramId,
+        marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+        marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+        marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
+
+        tknMint: tokens.wbWBNB.mint,
+
+        lendingPoolInfoAccount: new PublicKey('6RnKftFywvw8sceeWUM623BYyMeW216276G4atZ23CrF'),
+        lendingPoolTknAccount: new PublicKey('F7SQgbgunwx7PKc9i5zXJfSNsjU9xM5P8Sb18FCUBKyf'),
+        lendingPoolFeeAccount: new PublicKey('F7SQgbgunwx7PKc9i5zXJfSNsjU9xM5P8Sb18FCUBKyf'),
+        lendingPoolShareMint: new PublicKey('8EzbLKBQ8Rest1SWUtZR6zFvYTo4cCaQ73ni8sF9vtjA'),
+        lendingPoolShareAccount: new PublicKey('DgBnJvW9iQT5sP5YyVHeNbRjG8Xd2d53f19a2451eXkV'),
+        lendingPoolCreditMint: new PublicKey('6bMAnnzp3pim8wd8XypLGuqVFQ3LMuY3vkRRse1DkZ7o'),
+        lendingPoolCreditAccount: new PublicKey('CFsjid6WFmsyZozJkj43ssA5rRmYa97mzvfs8eRYqBeZ'),
+
+        rewardsPool: {
+            farmingPoolAccount: new PublicKey('DyB3NGRQRAQcRowaxFhE8tBzB2kV6JcGCHJWADwVjFw9'),
+            farmingPoolAuthority: new PublicKey('FFVAs3tsHUjmGBKeHGex6b1bfyAfcJbwTPhrxtubMMDo'),
+            farmingPoolStakeTknMint: new PublicKey('8EzbLKBQ8Rest1SWUtZR6zFvYTo4cCaQ73ni8sF9vtjA'),
+            farmingPoolStakeTknAccount: new PublicKey('DuBFjRWMaNUbvfr2FgBNRuqMuRYuPcYZFRVFXHyR5wjx'),
+            farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccount: new PublicKey('FaUXYgAiMe3eSX11WyXZSx47Z6SoWnHvvMRPYR4WPXea'),
+            farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccountB: new PublicKey('6qvfR54nRwWMXSP18D2Y5qKnwmd6AVJ9TKdjJNmS7yGr'),
+        }
+    },
+
 }

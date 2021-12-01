@@ -367,7 +367,13 @@ export const tokens = {
         scale: 8,
         cgId: "staked-ether"
     },
-
+    wbWBNB: {
+        tag: 'wbWBNB',
+        name: 'wbWBNB',
+        mint: new PublicKey('9gP2kCy3wA1ctvYWQk75guqXuHfrEomqydHLtcTCqiLa'),
+        scale: 8,
+        cgId: "binancecoin"
+    },
 
 }
 
