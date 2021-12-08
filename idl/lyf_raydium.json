@@ -242,6 +242,22 @@
       "args": []
     },
     {
+      "name": "closeEmptyAccount",
+      "accounts": [
+        {
+          "name": "userMainAccount",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "userInfoAccount",
+          "isMut": true,
+          "isSigner": false
+        }
+      ],
+      "args": []
+    },
+    {
       "name": "setUserPostion",
       "accounts": [
         {
@@ -2700,9 +2716,13 @@
             "type": {
               "array": [
                 "u8",
-                32
+                31
               ]
             }
+          },
+          {
+            "name": "isEmpty",
+            "type": "u8"
           }
         ]
       }
@@ -2980,6 +3000,11 @@
       "code": 322,
       "name": "CurrentSlotTooOld",
       "msg": "Current Slot Too Old"
+    },
+    {
+      "code": 323,
+      "name": "AccountNotEmpty",
+      "msg": "Account Not Empty"
     }
   ]
 }
