@@ -1079,5 +1079,32 @@ export const LendingPoolConfig = {
             farmingPoolRewardsTknAccountB: new PublicKey('6qvfR54nRwWMXSP18D2Y5qKnwmd6AVJ9TKdjJNmS7yGr'),
         }
     },
+    
+    'REAL': {
+        programId : lendingPoolProgramId,
+        marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+        marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+        marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
+        tknMint: tokens.REAL.mint,
+
+        lendingPoolInfoAccount: new PublicKey('HVSKDFRtZB36U7W6c7Sy5hKajB5WDWszhb2pbLUeXUN1'),
+        lendingPoolTknAccount: new PublicKey('4FYHFdepwoHSQvE9PouRCUszsqY7bKfRKBUtTjKvCmGm'),
+        lendingPoolFeeAccount: new PublicKey('4FYHFdepwoHSQvE9PouRCUszsqY7bKfRKBUtTjKvCmGm'),
+        lendingPoolShareMint: new PublicKey('BG1Jn2paDc1LDK4JL76jGStpwDctwi3tBAuAsXiYocQy'),
+        lendingPoolShareAccount: new PublicKey('2iuEmnCe2eW3GoKaV6oc7Cjui86PLe5DVarydm8WEmpN'),
+        lendingPoolCreditMint: new PublicKey('Dzk92RfPmZom67Xyi8LMcW33PvEGSiHi2Xy1sXBEZ2VH'),
+        lendingPoolCreditAccount: new PublicKey('9rGhZmo3ewf9Y6sVWG59ZZnXHxoD5byH7HT8xE9Uus4Y'),
+
+        rewardsPool: {
+            farmingPoolAccount: new PublicKey('3QotGt94vKPPRNnpo7NBsNFLTFk943Sz6ytfGhXbuBe7'),
+            farmingPoolAuthority: new PublicKey('6gfzEHuoqqM4M8EgxvvdaFTNAfiUmpJfRyDE3TTQsVGv'),
+            farmingPoolStakeTknMint: new PublicKey('BG1Jn2paDc1LDK4JL76jGStpwDctwi3tBAuAsXiYocQy'),
+            farmingPoolStakeTknAccount: new PublicKey('9YeMPs71eUtoDHTAVVtijUKrmvqrjxeqUWtVt2d1NdjP'),
+            farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccount: new PublicKey('CXR81V9nHZgoz21heAeRyqygaJAjhyyH6uFNDqWKmrqx'),
+            farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccountB: new PublicKey('53FnLY8QE6vbxzd7MaCza9GdjV7X2RGkHNJbidZ8Moe9'),
+        }
+    },
 }
