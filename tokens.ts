@@ -374,7 +374,13 @@ export const tokens = {
         scale: 8,
         cgId: "binancecoin"
     },
-
+    REAL: {
+        tag: 'REAL',
+        name: 'REAL',
+        mint: new PublicKey('AD27ov5fVU2XzwsbvnFvb1JpCBaCB5dRXrczV9CqSVGb'),
+        scale: 9,
+        cgId: ""
+    },
 }
 
 export function getTokenMint(tag) {
