@@ -381,6 +381,13 @@ export const tokens = {
         scale: 9,
         cgId: ""
     },
+    MBS: {
+        tag: 'MBS',
+        name: 'MBS',
+        mint: new PublicKey('Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A'),
+        scale: 6,
+        cgId: ""
+    }
 }
 
 export function getTokenMint(tag) {

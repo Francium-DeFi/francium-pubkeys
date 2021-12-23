@@ -1079,7 +1079,7 @@ export const LendingPoolConfig = {
             farmingPoolRewardsTknAccountB: new PublicKey('6qvfR54nRwWMXSP18D2Y5qKnwmd6AVJ9TKdjJNmS7yGr'),
         }
     },
-    
+
     'REAL': {
         programId : lendingPoolProgramId,
         marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
