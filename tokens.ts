@@ -387,7 +387,15 @@ export const tokens = {
         mint: new PublicKey('Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A'),
         scale: 6,
         cgId: ""
-    }
+    },
+    wLDO: {
+        tag: 'wLDO',
+        name: 'wLDO',
+        mint: new PublicKey('HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p'),
+        scale: 8,
+        cgId: "lido-dao"
+    },
+
 }
 
 export function getTokenMint(tag) {
