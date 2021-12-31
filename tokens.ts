@@ -395,7 +395,13 @@ export const tokens = {
         scale: 8,
         cgId: "lido-dao"
     },
-
+    PRISM: {
+        tag: 'PRISM',
+        name: 'PRISM',
+        mint: new PublicKey('PRSMNsEPqhGVCH1TtWiJqPjJyh2cKrLostPZTNy1o5x'),
+        scale: 6,
+        cgId: ""
+    },
 }
 
 export function getTokenMint(tag) {
