@@ -402,6 +402,14 @@ export const tokens = {
         scale: 6,
         cgId: ""
     },
+
+    SHDW: {
+        tag: 'SHWD',
+        name: 'SHWD',
+        mint: new PublicKey('SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y'),
+        scale: 9,
+        cgId: ""
+    },
 }
 
 export function getTokenMint(tag) {
