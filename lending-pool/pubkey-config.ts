@@ -1155,7 +1155,7 @@ export const LendingPoolConfig = {
         }
     },
 
-    'SHWD': {
+    'SHDW': {
         programId : lendingPoolProgramId,
         marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
         marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
@@ -1183,4 +1183,34 @@ export const LendingPoolConfig = {
             farmingPoolRewardsTknAccountB: new PublicKey('DVAPvhBkHEWhE4w9T84KF5rySu7cyQiFHLfsKDMvcT7m'),
         }
     },
+
+    'BASIS': {
+        programId : lendingPoolProgramId,
+        marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+        marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+        marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
+
+        tknMint: tokens.BASIS.mint,
+        interestModel: interestModelCase1,
+
+        lendingPoolInfoAccount: new PublicKey('499SnZR7dFzLU6BF9v9obfSCsmgui3FBtYtFDakD89zQ'),
+        lendingPoolTknAccount: new PublicKey('E85Eyi4NmBp2Der1ntoNNx3AH5FHmjp4gGoUPW7qYVJ8'),
+        lendingPoolShareMint: new PublicKey('9s2iRZBzSNCNTUtuzSRHcv3q4Q9SaFFhSFZVnFXGtHUp'),
+        lendingPoolShareAccount: new PublicKey('5phQAZCwdfbYqj1tsv4xYWREpLZuxhqnMaZ126RAfVNb'),
+        lendingPoolCreditMint: new PublicKey('AVRoCxDDfx525L1XJJ5JbKrPPbuHs1JL6Z17vWS3HpKc'),
+        lendingPoolCreditAccount: new PublicKey('FeMzBdYfGJtqeRAadiC4fStY13cjxe6GutTyFCFsP1vL'),
+        lendingPoolFeeAccount: new PublicKey('CtdMN3hrU9yq2GJpojbU1oQZbMXJyuVZYMfNkAPbgaZN'),
+
+        rewardsPool: {
+            farmingPoolAccount: new PublicKey('GD2syrTphVNFhgWPfX52JxsqTLFXpFKHsFuHFuyH6SCa'),
+            farmingPoolAuthority: new PublicKey('9SMowoWcvciMBVTD4K3fDhMqjTQ5CRHCpGpT15R6sjBx'),
+            farmingPoolStakeTknMint: new PublicKey('9s2iRZBzSNCNTUtuzSRHcv3q4Q9SaFFhSFZVnFXGtHUp'),
+            farmingPoolStakeTknAccount: new PublicKey('9T6pP9xrEa3sNoaiDv2rRoViKWehnYv11Mpy3KAPqp25'),
+            farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccount: new PublicKey('3ons5X9YkRgccyEX7CVC9FSCeTzkkKrDouyAejZNeXfN'),
+            farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccountB: new PublicKey('AAYSvVfYigFoSZHYgrZ78sviYsSpLGuP9gzuTkMQCQNq'),
+        }
+    },
+
 }
