@@ -410,6 +410,14 @@ export const tokens = {
         scale: 9,
         cgId: ""
     },
+
+    BASIS: {
+        tag: 'BASIS',
+        name: 'BASIS',
+        mint: new PublicKey('Basis9oJw9j8cw53oMV7iqsgo6ihi9ALw4QR31rcjUJa'),
+        scale: 6,
+        cgId: ""
+    }
 }
 
 export function getTokenMint(tag) {
