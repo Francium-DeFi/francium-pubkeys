@@ -357,7 +357,16 @@ export const LendingPoolConfig = {
         lendingPoolShareAccount: new PublicKey("AsczgPTpW8A6wQZTtu6Z5pVi4uvJsQf9d1MRXE7c7YrS"),
         lendingPoolCreditMint: new PublicKey("3sd5YPZUVkAYGdsDRgHZF4F6GN6kPDr63gY2FwZvgjMx"),
         lendingPoolCreditAccount: new PublicKey("7iNXmECbQYq2cCrwbyZ9aJbVJ8uCRzPjjj1KeYktu6ut"),
-        rewardsPool:undefined
+        rewardsPool:{
+            farmingPoolAccount: new PublicKey('5vpydpXG36A9nR1Nxq2wVAALovbyUzGRnuqX15gSBBF2'),
+            farmingPoolAuthority: new PublicKey('97x78mLeiRbXtuS9nbASXLM2yvohq1VzGPCC58YdYycw'),
+            farmingPoolStakeTknMint: new PublicKey('5CCvvqeoWnRtxTgEbhRckKrGMc4rmiiD9VL9BpHVo3pq'),
+            farmingPoolStakeTknAccount: new PublicKey('9sPcu5Nmqo1GamkzgY9A4dfQgwVFjrFwvu7jResWCX8B'),
+            farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccount: new PublicKey('5RGAkNcXqcEgmXuzGCbKBnNXpKuWeFVAgC76P2y4sXiK'),
+            farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccountB: new PublicKey('B4b6E4mDMPYGq75gXkBJqyD7Dp36uP7Ks6fXVfY4bTxk'),
+        }
     },
 
     "COPE" : {
