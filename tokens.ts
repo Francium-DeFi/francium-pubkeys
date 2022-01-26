@@ -417,7 +417,24 @@ export const tokens = {
         mint: new PublicKey('Basis9oJw9j8cw53oMV7iqsgo6ihi9ALw4QR31rcjUJa'),
         scale: 6,
         cgId: ""
+    },
+
+    UST: {
+        tag: 'UST',
+        name: 'UST',
+        mint: new PublicKey('9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i'),
+        scale: 6,
+        cgId: ""
+    },
+
+    LUNA: {
+        tag: 'wUST',
+        name: 'wUST',
+        mint: new PublicKey("F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W"),
+        scale: 6,
+        cgId: ""
     }
+
 }
 
 export function getTokenMint(tag) {

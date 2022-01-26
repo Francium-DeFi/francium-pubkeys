@@ -1222,4 +1222,33 @@ export const LendingPoolConfig = {
         }
     },
 
+    'UST': {
+        programId : lendingPoolProgramId,
+        marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+        marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+        marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
+
+        tknMint: tokens.UST.mint,
+        interestModel: interestModelCase2,
+
+        lendingPoolInfoAccount: new PublicKey('G1PYcFc56DQHDjSyt8zRKcnxbBrKJq4Vehurzrt2KUzs'),
+        lendingPoolTknAccount: new PublicKey('DKYpvhtPyU9yWkGZx5VM4fA1isLwpcmQ8ttqhPJgMMrJ'),
+        lendingPoolShareMint: new PublicKey('FPnFwW1ASFLBReVz1EPWVGkbrsnrekVkEcQnrBRkvDXS'),
+        lendingPoolShareAccount: new PublicKey('MeLTPseZyHm2aWSk9Gda9d6xWM8DS5QySFKBS3Vyzsv'),
+        lendingPoolCreditMint: new PublicKey('AbPJaMzRetUebzRV3mtoXtyPDVwEBEHif3EibVKhfcTs'),
+        lendingPoolCreditAccount: new PublicKey('mYi2FARcy26GxkDuTneTybM75izMAR7swioxUMvyPRa'),
+        lendingPoolFeeAccount: new PublicKey('5wTjKzJyEJHbjw4fsZM51fKBDwiq5JSA3bSzzRE2PXob'),
+
+        rewardsPool: {
+            farmingPoolAccount: new PublicKey('6Y5Y3mc6byPdXLhb8twQM2Ei4L3YfceJpLFzFDNsZSBi'),
+            farmingPoolAuthority: new PublicKey('9a3QEmKhwyzqPY3SCXSmoTBfEgyzb4w96VP44XDM9p3V'),
+            farmingPoolStakeTknMint: new PublicKey('FPnFwW1ASFLBReVz1EPWVGkbrsnrekVkEcQnrBRkvDXS'),
+            farmingPoolStakeTknAccount: new PublicKey('9fZhscUjooAhovtGDn7xvtYabs35aqj8uN1H45ERZiQa'),
+            farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccount: new PublicKey('BTgLyeGfjYzA3joa62k78wvsEE3a8eFHhzVoLMTDVPhM'),
+            farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccountB: new PublicKey('CqsbNDh1im9bJx8rFUCdi72o26sZFNrbvHET3i7mFkzj'),
+        }
+    },
+
 }
