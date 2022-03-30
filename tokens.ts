@@ -367,27 +367,7 @@ export const tokens = {
         scale: 8,
         cgId: "staked-ether"
     },
-    wbWBNB: {
-        tag: 'wbWBNB',
-        name: 'wbWBNB',
-        mint: new PublicKey('9gP2kCy3wA1ctvYWQk75guqXuHfrEomqydHLtcTCqiLa'),
-        scale: 8,
-        cgId: "binancecoin"
-    },
-    REAL: {
-        tag: 'REAL',
-        name: 'REAL',
-        mint: new PublicKey('AD27ov5fVU2XzwsbvnFvb1JpCBaCB5dRXrczV9CqSVGb'),
-        scale: 9,
-        cgId: ""
-    },
-    MBS: {
-        tag: 'MBS',
-        name: 'MBS',
-        mint: new PublicKey('Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A'),
-        scale: 6,
-        cgId: ""
-    },
+
     wLDO: {
         tag: 'wLDO',
         name: 'wLDO',
@@ -395,6 +375,31 @@ export const tokens = {
         scale: 8,
         cgId: "lido-dao"
     },
+
+    wbWBNB: {
+        tag: 'wbWBNB',
+        name: 'wbWBNB',
+        mint: new PublicKey('9gP2kCy3wA1ctvYWQk75guqXuHfrEomqydHLtcTCqiLa'),
+        scale: 8,
+        cgId: "binancecoin"
+    },
+
+    REAL: {
+        tag: 'REAL',
+        name: 'REAL',
+        mint: new PublicKey('AD27ov5fVU2XzwsbvnFvb1JpCBaCB5dRXrczV9CqSVGb'),
+        scale: 9,
+        cgId: ""
+    },
+
+    MBS: {
+        tag: 'MBS',
+        name: 'MBS',
+        mint: new PublicKey('Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A'),
+        scale: 6,
+        cgId: ""
+    },
+
     PRISM: {
         tag: 'PRISM',
         name: 'PRISM',
@@ -402,7 +407,6 @@ export const tokens = {
         scale: 6,
         cgId: ""
     },
-
     SHDW: {
         tag: 'SHWD',
         name: 'SHWD',
@@ -410,7 +414,6 @@ export const tokens = {
         scale: 9,
         cgId: ""
     },
-
     BASIS: {
         tag: 'BASIS',
         name: 'BASIS',
@@ -433,8 +436,39 @@ export const tokens = {
         mint: new PublicKey("F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W"),
         scale: 6,
         cgId: ""
-    }
+    },
 
+    SLC: {
+        tag: 'SLC',
+        name: 'SLC',
+        mint: new PublicKey("METAmTMXwdb8gYzyCPfXXFmZZw4rUsXX58PNsDg7zjL"),
+        scale: 6,
+        cgId: ""
+    },
+
+    MEAN: {
+        tag: 'MEAN',
+        name: 'MEAN',
+        mint: new PublicKey("MEANeD3XDdUmNMsRGjASkSWdC8prLYsoRJ61pPeHctD"),
+        scale: 6,
+        cgId: ""
+    },
+
+    ZBC: {
+        tag: 'ZBC',
+        name: 'ZBC',
+        mint: new PublicKey("zebeczgi5fSEtbpfQKVZKCJ3WgYXxjkMUkNNx7fLKAF"),
+        scale: 9,
+        cgId: ""
+    },
+
+    ATS: {
+        tag: 'ATS',
+        name: 'ATS',
+        mint: new PublicKey("HJbNXx2YMRxgfUJ6K4qeWtjatMK5KYQT1QnsCdDWywNv"),
+        scale: 9,
+        cgId: ""
+    }
 }
 
 export function getTokenMint(tag) {
