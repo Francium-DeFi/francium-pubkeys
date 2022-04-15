@@ -468,6 +468,14 @@ export const tokens = {
         mint: new PublicKey("HJbNXx2YMRxgfUJ6K4qeWtjatMK5KYQT1QnsCdDWywNv"),
         scale: 9,
         cgId: ""
+    },
+
+    GST: {
+        tag: 'GST',
+        name: 'GST',
+        mint: new PublicKey("AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB"),
+        scale: 9,
+        cgId: ""
     }
 }
 

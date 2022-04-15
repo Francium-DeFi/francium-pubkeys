@@ -1251,4 +1251,32 @@ export const LendingPoolConfig = {
         }
     },
 
+    'GST': {
+            programId : lendingPoolProgramId,
+            marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+            marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+            marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
+
+            tknMint: tokens.GST.mint,
+            interestModel: interestModelCase1,
+
+            lendingPoolInfoAccount: new PublicKey('93zxnt1gPepvUjWYPP32uANnhAK6NNphGD6A2yQFhk4s'),
+            lendingPoolTknAccount: new PublicKey('4Y7VyaAWEDaQSkeYXbXRf1d82ZPViVRZ7Dt4fjHKgotL'),
+            lendingPoolShareMint: new PublicKey('4GDuSZwHUQvL6zga2UNdjgXSqXjcWaUYc4S36N9q4567'),
+            lendingPoolShareAccount: new PublicKey('GjmnPLwAAA5aZCfN5sCwcbartonu8iyVMPqSnfkyvtC9'),
+            lendingPoolCreditMint: new PublicKey('8Nq8YV7BYoe3dqdTX996TRDB2iYryAHbzZTXntt2A3Uo'),
+            lendingPoolCreditAccount: new PublicKey('8dzJgZxp7rBEbKhvFYXTMXKLmkqscn9UXwzcGA14fEgN'),
+            lendingPoolFeeAccount: new PublicKey('ERyCAJh59hn8187Kn6wiKpeXdnGw4hptrbn55vh9YJQ1'),
+
+            rewardsPool: {
+            farmingPoolAccount: new PublicKey('FeWUu6GVAvbpvcYqxymDPLsE4bWjtfLsJNg9FFVjQHwb'),
+                farmingPoolAuthority: new PublicKey('AqTdNkV6ZcpgN3QyBH1cSQZx8DHm6AvoHWusrGT9cPiw'),
+                farmingPoolStakeTknMint: new PublicKey('4GDuSZwHUQvL6zga2UNdjgXSqXjcWaUYc4S36N9q4567'),
+                farmingPoolStakeTknAccount: new PublicKey('A2d7G4aNKt4emJHdKpz7fb1C8GCw6gZxA5d9pUF1hxEW'),
+                farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+                farmingPoolRewardsTknAccount: new PublicKey('BVRKUs86o7b1tiyGWByag6DtpejxZdvz9BkBRkZv1auh'),
+                farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+                farmingPoolRewardsTknAccountB: new PublicKey('E81P1ip8ynf8q9Y3d365fghEhNgHK5yPcYkiuTF7WjVs'),
+        },
+    }
 }
