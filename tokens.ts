@@ -476,6 +476,13 @@ export const tokens = {
         mint: new PublicKey("AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB"),
         scale: 9,
         cgId: ""
+    },
+    GMT: {
+        tag: 'GMT',
+        name: 'GMT',
+        mint: new PublicKey("7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx"),
+        scale: 9,
+        cgId: ""
     }
 }
 
