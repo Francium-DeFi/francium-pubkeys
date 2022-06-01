@@ -483,7 +483,43 @@ export const tokens = {
         mint: new PublicKey("7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx"),
         scale: 9,
         cgId: ""
-    }
+    },
+    prANA: {
+        tag: "prANA",
+        name: "prANA",
+        mint: new PublicKey("PRAxfbouRoJ9yZqhyejEAH6RvjJ86Y82vfiZTBSM3xG"),
+        scale: 6,
+        cgId: "",
+    },
+    RATIO: {
+        tag: "RATIO",
+        name: "RATIO",
+        mint: new PublicKey("ratioMVg27rSZbSvBopUvsdrGUzeALUfFma61mpxc8J"),
+        scale: 6,
+        cgId: "",
+    },
+    SLCL: {
+        tag: "SLCL",
+        name: "SLCL",
+        mint: new PublicKey("SLCLww7nc1PD2gQPQdGayHviVVcpMthnqUz2iWKhNQV"),
+        scale: 9,
+        cgId: "",
+    },
+    TTT: {
+        tag: "TTT",
+        name: "TTT",
+        mint: new PublicKey("FNFKRV3V8DtA3gVJN6UshMiLGYA8izxFwkNWmJbFjmRj"),
+        scale: 6,
+        cgId: "",
+    },
+    RUN: {
+        tag: "RUN",
+        name: "RUN",
+        mint: new PublicKey("6F9XriABHfWhit6zmMUYAQBSy6XK5VF1cHXuW5LDpRtC"),
+        scale: 9,
+        cgId: "",
+    },
+
 }
 
 export function getTokenMint(tag) {
