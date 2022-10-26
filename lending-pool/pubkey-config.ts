@@ -58,6 +58,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: new PublicKey("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"), // usdc
+        lookupTableAddress:  new PublicKey("8zkUc4NeXDoFp8UBDQ3sPVKbBAHNHdvNbeRm1tupEHS9"),
 
         lendingPoolInfoAccount: new PublicKey("Hx6LbkMHe69DYawhPyVNs8Apa6tyfogfzQV6a7XkwBUU"),
         lendingPoolTknAccount: new PublicKey("CFp9kt8z3Epb1QSiEp3xA44KbSwuJxhFR3wQoerFqYS9"),
@@ -85,6 +86,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: new PublicKey("Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS"),
+        lookupTableAddress:  new PublicKey("2E8tZ5SLctXECt74ooLxDf4Wz5dwngpoKwc6z7Mn987S"),
 
         lendingPoolInfoAccount: new PublicKey("EzofB5BK23PHDfEAThk5oJANb9FWTXzezrafiTDzcBBA"),
         lendingPoolTknAccount: new PublicKey("4Kvd1ULAy45k2EQt1pdePa82UBz9tW6N1rLJWb3EAJgQ"),
@@ -112,6 +114,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.rayToken.mint,
+        lookupTableAddress:  new PublicKey("Fe8sni23YSFGqZTLpTia6y6fUmbyzao22wJy1hBqGSx"),
 
         lendingPoolInfoAccount: new PublicKey("ENZ7vdrvNGdAfVa8DoGpT2GrfoSFUtWKRoesf2dvqpuq"),
         lendingPoolTknAccount: new PublicKey("BUK8XbZeEqVULYRxGp4Va2R1BRqrYzXDrCVnWt6B7TZf"),
@@ -139,6 +142,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.usdtToken.mint,
+        lookupTableAddress:  new PublicKey("8T9RNbWAWuPgKXgV5EaQV8kvo9fbGjmLmt4XzwFimn1c"),
 
         lendingPoolInfoAccount: new PublicKey("EyqWUeme2B1dhuwJvJVi2coYPcGWmWrakcpsSFeikrhb"),
         lendingPoolTknAccount: new PublicKey("Acx3Ky9pk8CyYftA9HYF31EbVhBDi21EqJsFtMW2XxXW"),
@@ -166,6 +170,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.srmToken.mint,
+        lookupTableAddress:  new PublicKey("E7Rf4v3DroXQ4Q2Aon5FsqtDvduNuXEXqCcoKoD8UYoj"),
 
         lendingPoolInfoAccount: new PublicKey("B1zB1EuTjnFPLdwySeBYhzeAf3h9buWLbDoG7AHcUTMF"),
         lendingPoolTknAccount: new PublicKey("FLQtBThLEVvhXdKqq2CREL8sFt8jAFS8szm4HaMYqmJk"),
@@ -193,6 +198,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.ethToken.mint,
+        lookupTableAddress:  new PublicKey("5M7vfgfzqT4F5QJyb7w9YqGPrVXBLhQa7sqVRfmd5NE7"),
 
         lendingPoolInfoAccount: new PublicKey("CKMQxUz1nkn3NS5B9AUD1uyWNL8iN2piG9LVt1RvWXzj"),
         lendingPoolTknAccount: new PublicKey("9MH38iiDX4Pk37U6TXLqz2783RspNhwBTYwBNHp8WUzP"),
@@ -220,6 +226,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.solToken.mint,
+        lookupTableAddress:  new PublicKey("4DoNrJQqMB2kG31bzKxVdgKWqB4rrCNt3bVbAzUd4Tmg"),
 
         lendingPoolInfoAccount: new PublicKey("EnZC8MB6QLTxwN1LNqCXYC7XMpvXqitnYQPf5y5AcQRn"),
         lendingPoolTknAccount: new PublicKey("GiJwrxQW5NQWWAva4rnDMXwHxfrhyUzwMX5to1pmCCgF"),
@@ -248,6 +255,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.orcaToken.mint,
+        lookupTableAddress:  new PublicKey("2iiSgXsQv5Ej6m68KkP7uU1jCZwy2Py1RhwLkG91PBt4"),
 
         lendingPoolInfoAccount: new PublicKey("9bo5JunUhp4XD7TDeeS9ARvWTYGBYtuQKUHGUb7RRvkf"),
         lendingPoolTknAccount: new PublicKey("F3EhkuRuZaYNY2bLTosjv6V7QXiZ8db9nXTZeLnmHC7V"),
@@ -277,6 +285,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.atlasToken.mint,
+        lookupTableAddress:  new PublicKey("7jmphqSz19pSyYDAoNbBnAdpSPjCDMhuGowvZL4MVPya"),
 
         lendingPoolInfoAccount: new PublicKey("FnkmnUqazYmSm791rSTSXYbAzDzsuHJBgySgNZeCHGDJ"),
         lendingPoolTknAccount: new PublicKey("E5ovYitzudRyUy7AS4U52eFgrq1rjr773rRGpYax1nmD"),
@@ -305,6 +314,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.polisToken.mint,
+        lookupTableAddress:  new PublicKey("8GNhPXDU4UGascdfKGmu3ZBJsEbYoxe4w2BRixXH8ZNK"),
 
         lendingPoolInfoAccount: new PublicKey("BWJkfNQnYt817V6sKxEJ3sFcivcXZgfKGCe8Z9f4LcVj"),
         lendingPoolTknAccount: new PublicKey("7Ad6djoPLzigyBnnWjoLh2gQ6Tbw2s6kAdsaVUBq6L8N"),
@@ -331,6 +341,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.grapeToken.mint,
+        lookupTableAddress:  new PublicKey("59xHfAoWhqJya4x7cgvWiogKQoFcQyBVSNHXzX6SrfCi"),
 
         lendingPoolInfoAccount: new PublicKey("G8MGSKf12Kuf1S2w35XwQs7vjiGtxRcgNsLAhBiLeKGb"),
         lendingPoolTknAccount: new PublicKey("HNwBYkGp32m7ptkgvzAj9GEWDpdZoPWiJ66nuonEMsSN"),
@@ -349,6 +360,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.liqToken.mint,
+        lookupTableAddress:  new PublicKey("ySebSZ5y6JEwYBQDbkE2ombdSLw4Y5Y9KtUEoq3nRk8"),
 
         lendingPoolInfoAccount: new PublicKey("24dy3YvNeRThzCCiAm7k4S8ZZXnpsC8sqQLzfYmfTuue"),
         lendingPoolTknAccount: new PublicKey("5UKqFFd9GrYnCT3dqZFq9qJjaroQpqtbAFGpu1ZyAkNa"),
@@ -376,6 +388,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.copeToken.mint,
+        lookupTableAddress:  new PublicKey("8A59L1VxS9fVyJ6GQ9xeZLJmrPyuPpangMuk4HLFZhqg"),
 
         lendingPoolInfoAccount: new PublicKey('Hmde6PfS3wv2wi1rePBTFSjMqpugPpBFc8HLiYfHwsTB'),
         lendingPoolTknAccount: new PublicKey('BZwinxfYXhHgDc61AU9YFv7VkcuffVcQqBXXms8JAovX'),
@@ -394,6 +407,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.slrsToken.mint,
+        lookupTableAddress:  new PublicKey("73WSoHB9xCzc4WL9ZMQfXQFQSB9BkUThj489M3faYSMg"),
 
         lendingPoolInfoAccount: new PublicKey('BZ4tTB8wfU8oYryLcJQGEhNdfrCaDbJNqnppVPN9xQbJ'),
         lendingPoolTknAccount: new PublicKey('5ymJNV438qTDJFZqNPMjUefvLBfpvQooPus9vPBVGdv7'),
@@ -413,6 +427,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.portToken.mint,
+        lookupTableAddress:  new PublicKey("45V4xnfZHTFjy7aHJMvhCUX8MfHiXuhvGk3CaQ7enJ61"),
 
         lendingPoolInfoAccount: new PublicKey('7cTGVuwrxC1vv9uyug9cVu7Vp5AbqV6GvKedrxSQ4JNu'),
         lendingPoolTknAccount: new PublicKey('6BfUm64VY4SqxkFtesCgA43VuosanEPgPD7uDEJoAZY4'),
@@ -430,6 +445,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.msolToken.mint,
+        lookupTableAddress:  new PublicKey("A9L7C5QMNG5yBjntCxjo4tkxmu2AHiNP5ev9uBtLUMfE"),
 
         lendingPoolInfoAccount: new PublicKey('492Hr5QDQyrsLcyXqMZ7A5osjmqwtn4cdKNQLDBYBzvy'),
         lendingPoolTknAccount: new PublicKey('ADW9ZJuRQ9xbzTtWCwX1Th24Vxq7GWHWwYtctrbyjSr1'),
@@ -458,6 +474,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.larixToken.mint,
+        lookupTableAddress:  new PublicKey("BJjufpt3aM37HbZo3D7JLkDcxeHPJt8peNXXNAZTDXhP"),
 
         lendingPoolInfoAccount: new PublicKey('BGYGxpa2LYJ3ZgpA9tWpKjD2wbuM7c2zwFV9ZMCKRPp6'),
         lendingPoolTknAccount: new PublicKey('GTKq5mzS3zutHQmHXs5jkj4oqcFQoav7faSCNYaCymMq'),
@@ -476,6 +493,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.mediaToken.mint,
+        lookupTableAddress:  new PublicKey("CMuDXGgN8tFTdpEQ7v3XWbQegmdFm8waMV8Cdgvw2jXy"),
 
         lendingPoolInfoAccount: new PublicKey('9zraX81waus632HnvJJci2JvaM1GJSEETJNteqCn1D7r'),
         lendingPoolTknAccount: new PublicKey('5548dt2zeaXYu3nHPFNSgTn5Ds7s7mBQehjDKBdnCuUJ'),
@@ -494,6 +512,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.btcToken.mint,
+        lookupTableAddress:  new PublicKey("HUT8P5M4buU38F361SC8Zzp5VPAHfMbmL4aAzoyLdVp6"),
 
         lendingPoolInfoAccount: new PublicKey('DxAuEAxKYXsKMYG5Ma4TM8AsrAo7LQBSnbEGicU7i1ek'),
         lendingPoolTknAccount: new PublicKey('2MN34BxuLVrjZpKYKHmW1c6ZGeQs4aWQRrEvmrYfZdtG'),
@@ -521,6 +540,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.ninjaToken.mint,
+        lookupTableAddress:  new PublicKey("DijvccMoRfYmGPSUUzsXURoHteBtheNVRbnqiWqY7kL7"),
 
         lendingPoolInfoAccount: new PublicKey('2U3t27cfbUg9nkqPiLyijAFZs99NLvKGt3rjBdbueoKh'),
         lendingPoolTknAccount: new PublicKey('Ai5ZtdQtgTpEhbz1ZGriBf5X3ag8R83tfeWK6k6ropdx'),
@@ -540,6 +560,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.whethToken.mint,
+        lookupTableAddress:  new PublicKey("9YyTJSjV9YK4GgW4oKETJQcEJyHTCCDU1TwVFZu41Cjs"),
 
         lendingPoolInfoAccount: new PublicKey('EEokU6r9bBdTz1umHjGhkjgfikARsJzJBXhYxnTmN4Xk'),
         lendingPoolTknAccount: new PublicKey('9Mq6KEyW1nF24TcGrdLLfnK2pE5VdMxbY2SZtcP84R5X'),
@@ -567,6 +588,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.sbrToken.mint,
+        lookupTableAddress:  new PublicKey("65qNhu8BksERHPQrHTDFvBdrsYP2ns37wsCPsrpnDxS7"),
 
         lendingPoolInfoAccount: new PublicKey('6JZLr1xqoTtAgfAbENT43Vi8EUSUF3tpjH8UvyDKgDea'),
         lendingPoolTknAccount: new PublicKey('87WWEpoxgv7MyiBoxBhJr2oagssQvQZxrkNMw29grYvC'),
@@ -586,6 +608,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.alephToken.mint,
+        lookupTableAddress:  new PublicKey("HnqaVYU81ombmkvmMcvFFn7eWLmpUV5suWVQozhPoF87"),
 
         lendingPoolInfoAccount: new PublicKey('E1q2MLRQz5VUKwTChn6rcG3FmJq8wVCRnXFYi8hfsQ9Z'),
         lendingPoolTknAccount: new PublicKey('5MZVBTyc7g2th9X6moQ6QCPmEVWFKf3joCRDnNpBuSyB'),
@@ -605,6 +628,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.likeToken.mint,
+        lookupTableAddress:  new PublicKey("AVzWTUp9p7wsf9FhLZFj7Yjy8Airp9aAjEq3NpVwtL3a"),
 
         lendingPoolInfoAccount: new PublicKey('Dca4U2Z1FsmTxCprP4mno86TyU16MKNPXMaDL1Ss91PG'),
         lendingPoolTknAccount: new PublicKey('FhMA9GPpUJ47hVBxGEaDLFJD1tAkdKiJp6pGh5M8maU7'),
@@ -623,6 +647,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.abrToken.mint,
+        lookupTableAddress:  new PublicKey("2JihKu9C12DSAko4nKD5sXJT4gKsHFpZDJErpf533Vf1"),
 
         lendingPoolInfoAccount: new PublicKey('7iKEAvrGRqv4DW1v8qPGqijXeLwDtEzpQJpGsiFB7xvb'),
         lendingPoolTknAccount: new PublicKey('8TMXwxvfsks3JqgzeDoPjatNMqsUBdUjQSssvWTQbUaK'),
@@ -642,6 +667,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.samoToken.mint,
+        lookupTableAddress:  new PublicKey("FUdXgKTfisX642gKDZReFtaRee8WdHiw4nrz4Y4y7JpP"),
 
         lendingPoolInfoAccount: new PublicKey('HJLkovTpxof1z9tVMuX1pWp1ePDx1zgmnGYfFMxFRAd'),
         lendingPoolTknAccount: new PublicKey('J198uwytk8CPejCyNM9TMPJcLPCky6pZwGwP3n1CUfto'),
@@ -668,6 +694,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.fttToken.mint,
+        lookupTableAddress:  new PublicKey("GBUJCvdJ9DxVYUM9UTwBbJLnTJDHyvgU8roLBmshWFgq"),
 
         lendingPoolInfoAccount: new PublicKey('BWickhMLCKEmmy6kNqKT64KBiXtnNtPL7iNpjrwMfgqy'),
         lendingPoolTknAccount: new PublicKey('375Cp4ioTxaTN5FjVvKoPwGrEztzHWxvva8DeBnCtc7h'),
@@ -695,6 +722,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.wesushiToken.mint,
+        lookupTableAddress:  new PublicKey("5vnSYw9FpCWYf6NB1VxNhC9ouv7d1xLz9Cx17S2f46aW"),
 
         lendingPoolInfoAccount: new PublicKey('2oTEVdMpSRsamFeNYzqn3wifsPHRomA8TShgbTnDtTgN'),
         lendingPoolTknAccount: new PublicKey('4VAyWCoRbW5YXiV5Rz7pZy7miYBJLjfZYsykDuTnWyqj'),
@@ -723,6 +751,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.weuniToken.mint,
+        lookupTableAddress:  new PublicKey("Hb4ZHgHCyyzJWfksKyr8mRB7ydvH2SG76AC5pXkv6j9G"),
 
         lendingPoolInfoAccount: new PublicKey('H4uTQ8CCFJYVQYZ8c2bH7hHGrrok6k4pWDhk5NQt9KR8'),
         lendingPoolTknAccount: new PublicKey('E3fN9Wqesn2NbYGPjybFo5HTMpcyLPnWNHovQpQqqw8G'),
@@ -751,6 +780,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.starsToken.mint,
+        lookupTableAddress:  new PublicKey("ZdDUWCtVYd8GZwcrJ9FhUBX47uRgyj1i1D9G6PMizoq"),
 
         lendingPoolInfoAccount: new PublicKey('Cc4PGrJGqbt4XmRVbSD8N6q3MMRRY1LfdQtN3w3Lq4Wr'),
         lendingPoolTknAccount: new PublicKey('ASUq7tK1U985yECszqCwRgXBAXDcPt9DNVdD5vC7pfn5'),
@@ -779,6 +809,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.weDYDX.mint,
+        lookupTableAddress:  new PublicKey("D1n5Z7K2b5zSVkqjZZd3zP9pFQpRQCiXTjQd53bpg9co"),
 
         lendingPoolInfoAccount: new PublicKey('HTBxsYGGAfL8KKPNCVbCKnB3i8JbwCGCPDb27pKVwokU'),
         lendingPoolTknAccount: new PublicKey('6oKdAxTYQg4kQZWo5kgoF31nqg2hWNHv2iFmvAnhUSSX'),
@@ -807,6 +838,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.weAXS.mint,
+        lookupTableAddress:  new PublicKey("3JqejHuSfGDvubrGrKqGeiXbJbBRU3FcWXeUNbLRV81o"),
 
         lendingPoolInfoAccount: new PublicKey('2uzXxLcburgpzYKyNP2sswDLLmmD8cyiJ3XDt5jFY1hL'),
         lendingPoolTknAccount: new PublicKey('BGZ1sfSqJGB36rd24A3vaPndyY5zaCJBmtaURAPFLy7F'),
@@ -835,6 +867,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.weSHIB.mint,
+        lookupTableAddress:  new PublicKey("BiVfd4F8oZwWfUETL4KUUtveLyUWvv47jLfBw4hN3YjU"),
 
         lendingPoolInfoAccount: new PublicKey('39cozrAUvLyLJk4Lp9QcgxhVzJXiAN9pib9N4omTE4aU'),
         lendingPoolTknAccount: new PublicKey('wGKjnj2Vjq5HTVjRURnCbeHkjSi3nDGkJXpu4sf4atT'),
@@ -863,6 +896,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.slndToken.mint,
+        lookupTableAddress:  new PublicKey("844BrNhSZpsujBcci5D8f1oJ3TuEKGnGcpUoDChkJEj"),
 
         lendingPoolInfoAccount: new PublicKey('6zAC5T2ADWHwE6wshtvVXkaJTJMhW32X1aaicbsKK7Ko'),
         lendingPoolTknAccount: new PublicKey('9G2x27Rnv3hBvyDTFTs1JpFYKNhn6zD2fSb6s4eyzetD'),
@@ -891,6 +925,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.weMANA.mint,
+        lookupTableAddress:  new PublicKey("DP6cPrcMMKvB94Ufhi8ixHKsthjtEvPc8WxD5TBEuQFX"),
 
         lendingPoolInfoAccount: new PublicKey('54fV2miWuFnvSJxPXk7j2XfTap9nCdU66zspZLnz5Buh'),
         lendingPoolTknAccount: new PublicKey('FWse57pdb6bAW4DpByaE6Fndoe7LR13f8xYWsU9ytuTt'),
@@ -918,6 +953,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.weSAND.mint,
+        lookupTableAddress:  new PublicKey("4cSqxuBRr5M7K1DcHDpKvHQu6DEAHvLmVh5PdNLS7dsU"),
 
         lendingPoolInfoAccount: new PublicKey('FKedcrS3MvvinwYfdy5xsidfBAmuDxRG8rG2kFU43NeV'),
         lendingPoolTknAccount: new PublicKey('E9AaQk4HBnJoZDiws4RcxnfPZubQ4zpJY7YCo5TbBvzj'),
@@ -946,6 +982,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.CAVE.mint,
+        lookupTableAddress:  new PublicKey("71kSKhQJ2nFBWkseS4VkKQokVi8EDCgGfzYWjMjc6Vjk"),
 
         lendingPoolInfoAccount: new PublicKey('4hoQV8MoKnecGKuzvo29sR2jtkxkmiQHyzNXctZ3F9Ka'),
         lendingPoolTknAccount: new PublicKey('YsP7Jj2zdbyyAqjuSN7cVJSG38izimcJXvtdMJ639Ao'),
@@ -974,6 +1011,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.GENE.mint,
+        lookupTableAddress:  new PublicKey("HFKYALQcRFkM5S35fjXz3aCoyPDwKeGJtXzs5yMkjUFw"),
 
         lendingPoolInfoAccount: new PublicKey('FrgyPPEPNC25ihob4ZobP3eYjh8uBoxLiobdMDX2EsMc'),
         lendingPoolTknAccount: new PublicKey('A4UMfr97y35AvCaakKRAE5UBsb4UuvRQ2JiT23dyzDFu'),
@@ -1002,6 +1040,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.SONAR.mint,
+        lookupTableAddress:  new PublicKey("CUcpP2uUw77Ftvhdppy2SpcRsDQ9kgW4qeG6iWNKeiC1"),
 
         lendingPoolInfoAccount: new PublicKey('3USSy3sAZSCnUiCZJaTFt5hCHWSw87kg8tNPaEZh1p9D'),
         lendingPoolTknAccount: new PublicKey('2F2yrLZQa3av7PxW7vdqiYBV4AwTbkCdswgN2BYGgtvs'),
@@ -1031,6 +1070,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.DFL.mint,
+        lookupTableAddress:  new PublicKey("2Q144LX9XXacpEwNMFMESnuZhCNpPrABYun3AZJxnYHB"),
 
         lendingPoolInfoAccount: new PublicKey('74fWq2xnHBP1W6QhLDazCZAuZvp9XY3ck1PGNJg9hfhi'),
         lendingPoolTknAccount: new PublicKey('5QNHLaujxMgFKYaJM55uYb3jyMGgvspizg7S5eVAD3d8'),
@@ -1059,6 +1099,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.stSOL.mint,
+        lookupTableAddress:  new PublicKey("kTJ8hWwRV6vmj7feyD1ppNk7rxiuPMmhrjoSmHJ75M9"),
 
         lendingPoolInfoAccount: new PublicKey('9ogtxmnUF94KaPn3dB3unT5yyu7rpzSwc5igysgqFxrU'),
         lendingPoolTknAccount: new PublicKey('85pJTrAVdjHNvgCcUtefwkSe9RDKnHueyvs2uTocWmWs'),
@@ -1087,6 +1128,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.wstETH.mint,
+        lookupTableAddress:  new PublicKey("GwbAR95ACbjJXJmgEoppAq43MbzV4gDxrabAmgtRZHMs"),
 
         lendingPoolInfoAccount: new PublicKey('8jcY9dp6DEaDJ2GMSbpNoURsicsrWyTLiBcbuXpBKP9r'),
         lendingPoolTknAccount: new PublicKey('4JGChfCLhLJU4KpDYpDxxR45ML4q46CmnNt5jE6kuoRj'),
@@ -1115,6 +1157,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.wbWBNB.mint,
+        lookupTableAddress:  new PublicKey("AJMcPqmPMnPonDKCUHMyTF8sVCkGaHxMzQdEPKtY3QbK"),
 
         lendingPoolInfoAccount: new PublicKey('6RnKftFywvw8sceeWUM623BYyMeW216276G4atZ23CrF'),
         lendingPoolTknAccount: new PublicKey('F7SQgbgunwx7PKc9i5zXJfSNsjU9xM5P8Sb18FCUBKyf'),
@@ -1143,6 +1186,7 @@ export const LendingPoolConfig = {
         marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
 
         tknMint: tokens.REAL.mint,
+        lookupTableAddress:  new PublicKey("BpD3iVcg57YBQ7VCiP4H1oR4Zc5gqCpSwsrmA1AeosQx"),
 
         lendingPoolInfoAccount: new PublicKey('HVSKDFRtZB36U7W6c7Sy5hKajB5WDWszhb2pbLUeXUN1'),
         lendingPoolTknAccount: new PublicKey('4FYHFdepwoHSQvE9PouRCUszsqY7bKfRKBUtTjKvCmGm'),
@@ -1172,6 +1216,7 @@ export const LendingPoolConfig = {
 
         tknMint: tokens.SHDW.mint,
         interestModel: interestModelCase1,
+        lookupTableAddress:  new PublicKey("37Fuw9zCDDaohHxY12cw6viNJ4J4qZysRYQynQ75Fo9F"),
 
         lendingPoolInfoAccount: new PublicKey('8NvPwUxtBohPg45bAmzzB45qLajpfptMVgqgu5vmCNgi'),
         lendingPoolTknAccount: new PublicKey('EoVqoTtczavGmATCagSQU11c74MkL8enp96fGkQz6uqK'),
@@ -1201,6 +1246,7 @@ export const LendingPoolConfig = {
 
         tknMint: tokens.BASIS.mint,
         interestModel: interestModelCase1,
+        lookupTableAddress:  new PublicKey("CweY4HW2y4mQQmduqQNBPRHLNcsLmNV3aUNSE4EHumhe"),
 
         lendingPoolInfoAccount: new PublicKey('499SnZR7dFzLU6BF9v9obfSCsmgui3FBtYtFDakD89zQ'),
         lendingPoolTknAccount: new PublicKey('E85Eyi4NmBp2Der1ntoNNx3AH5FHmjp4gGoUPW7qYVJ8'),
@@ -1230,6 +1276,7 @@ export const LendingPoolConfig = {
 
         tknMint: tokens.UST.mint,
         interestModel: interestModelCase2,
+        lookupTableAddress:  new PublicKey("HbSUXs2y1nMm1rpWfxeD25ZsfXEk19PuvWTZhdzvwUvo"),
 
         lendingPoolInfoAccount: new PublicKey('G1PYcFc56DQHDjSyt8zRKcnxbBrKJq4Vehurzrt2KUzs'),
         lendingPoolTknAccount: new PublicKey('DKYpvhtPyU9yWkGZx5VM4fA1isLwpcmQ8ttqhPJgMMrJ'),
@@ -1259,6 +1306,7 @@ export const LendingPoolConfig = {
 
             tknMint: tokens.GST.mint,
             interestModel: interestModelCase1,
+        lookupTableAddress:  new PublicKey("GBAgJPNhEmt3JwubXVgd66zoJZP8XBGD7FwsYzo8WRkh"),
 
             lendingPoolInfoAccount: new PublicKey('93zxnt1gPepvUjWYPP32uANnhAK6NNphGD6A2yQFhk4s'),
             lendingPoolTknAccount: new PublicKey('4Y7VyaAWEDaQSkeYXbXRf1d82ZPViVRZ7Dt4fjHKgotL'),
@@ -1287,6 +1335,7 @@ export const LendingPoolConfig = {
 
         tknMint: tokens.GMT.mint,
         interestModel: interestModelCase1,
+        lookupTableAddress:  new PublicKey("3KzviRz2snQevukX9FWt5n72XQFX48czkWJPsAiGoJZz"),
 
         lendingPoolInfoAccount: new PublicKey('9b5QWW2SqjmhRxtYTHXj6LFkmUkahrLAMQer3rEurd1k'),
         lendingPoolTknAccount: new PublicKey('7ZosDG7JWwXFnzhQ2aQ1ghCSQ9mrQzvH3ZhduhRPHgJB'),
@@ -1306,5 +1355,34 @@ export const LendingPoolConfig = {
             farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
             farmingPoolRewardsTknAccountB: new PublicKey('29TsFVuj7ZdFwLUvfBeBt7Wcw5jBGguGi8LGRau9TRaz'),
         },
-    }
+    },
+    'ZBC': {
+        programId : lendingPoolProgramId,
+        marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+        marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+        marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
+
+        tknMint: tokens.ZBC.mint,
+        interestModel: interestModelCase3,
+        lookupTableAddress:  new PublicKey("FNVsWfdmEcAjdxUZtRC9165RUt8zQh3k3mANCQL4sRAu"),
+
+        lendingPoolInfoAccount: new PublicKey('6uPerEUyomCC5qn4z9xF3fbVa7SCytcKoCVannPDez5R'),
+        lendingPoolTknAccount: new PublicKey('7quTFi1N9EZfz7jUx7ui9wx9rk1rb3F1Enjbh8Me2tSs'),
+        lendingPoolShareMint: new PublicKey('HUry6RSbDasMfU7LXZ5QR42YajkbMuLBQkyV742xgFKx'),
+        lendingPoolShareAccount: new PublicKey('BHuVdzrDTssFdWTqt15fsdJzJuHESQrMhSnc3jsJ8X2Y'),
+        lendingPoolCreditMint: new PublicKey('ADWAgFjannL985LDKQsQ9B833BFDMj4q8qQappe2F3X9'),
+        lendingPoolCreditAccount: new PublicKey('5xqkszmojpTFy3wGQTXFB7XoLyWXxw7ymmHN9iNYVdUK'),
+        lendingPoolFeeAccount: new PublicKey('qt8KMibr5UcB1WZGVdgyFNGvmzEtp3faUqfcKDytLzq'),
+
+        rewardsPool: {
+            farmingPoolAccount: new PublicKey('FPKSH61ciN4YetqKvW7KMWVc1icKDqtPogQR1tQqZrWF'),
+            farmingPoolAuthority: new PublicKey('4v2FpU7sTv8BoQdu9LXY65EK4AMHheuDyVDp3viuzh5f'),
+            farmingPoolStakeTknMint: new PublicKey('HUry6RSbDasMfU7LXZ5QR42YajkbMuLBQkyV742xgFKx'),
+            farmingPoolStakeTknAccount: new PublicKey('4TMJwumst5n67zuFFj12zBVe1U4WX1iApjni6FMNPrwP'),
+            farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccount: new PublicKey('33qA8PTrZuzMe1ixw1ABeSCDykGEcaBRcDbYcySjY66E'),
+            farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccountB: new PublicKey('8CHYivAkcJo8V56bcVaBmKQjLAydtLc9aXiyiyWCfk1U'),
+        },
+    },
 }
