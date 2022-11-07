@@ -48,6 +48,16 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("AnLf8tVYCM816gmBjiy8n53eXKKEDydT5piYjjQDPgTB"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("BjUgj6YCnFBZ49wF54ddBVA9qu8TeqkFtkbqmZcee8uW"),
+            switchboardPriceAccount1: new PublicKey("2oALNZVi5czyHvKbnjE4Jf2gR7dNp1FBpEGaq4PzVAf7"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -136,6 +146,15 @@ export const lyfPubkeyConfig = {
         strategyBorrowCreditAccount1: new PublicKey('AzKYaZYtazkPN6eaFvPCv89R5MEz9iXcR91TeyX6TZNY'),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT,
+
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL"),
+            pythPriceAccount1: new PublicKey("AnLf8tVYCM816gmBjiy8n53eXKKEDydT5piYjjQDPgTB"),
+        },
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("ETAaeeuQBwsh9mC2gCov9WdhJENZuffRMXY2HgjCcSL9"),
+            switchboardPriceAccount1: new PublicKey("2oALNZVi5czyHvKbnjE4Jf2gR7dNp1FBpEGaq4PzVAf7"),
+        },
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -227,6 +246,16 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("3NBReDRTLKMQEKiLD5tGcx4kXbTf88b7f2xLS9UuGjym"),
+            pythPriceAccount1: new PublicKey("AnLf8tVYCM816gmBjiy8n53eXKKEDydT5piYjjQDPgTB"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("CUgoqwiQ4wCt6Tthkrgx5saAEpLBjPCdHshVa4Pbfcx2"),
+            switchboardPriceAccount1: new PublicKey("2oALNZVi5czyHvKbnjE4Jf2gR7dNp1FBpEGaq4PzVAf7"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -315,6 +344,15 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB"),
+            pythPriceAccount1: new PublicKey("AnLf8tVYCM816gmBjiy8n53eXKKEDydT5piYjjQDPgTB"),
+        },
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("HNStfhaLnqwF2ZtJUizaA9uHDAVB976r2AgTUx9LrdEo"),
+            switchboardPriceAccount1: new PublicKey("2oALNZVi5czyHvKbnjE4Jf2gR7dNp1FBpEGaq4PzVAf7"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -402,6 +440,16 @@ export const lyfPubkeyConfig = {
         strategyBorrowCreditAccount1: new PublicKey('F5wQQSvfE4mfvJ8padaVVBw6mKdn882KZzF145iutAFT'),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT,
+
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG"),
+            pythPriceAccount1: new PublicKey("AnLf8tVYCM816gmBjiy8n53eXKKEDydT5piYjjQDPgTB"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("GvDMxPzN1sCj7L26YDK2HnMRXEQmQ2aemov8YBtPS7vR"),
+            switchboardPriceAccount1: new PublicKey("2oALNZVi5czyHvKbnjE4Jf2gR7dNp1FBpEGaq4PzVAf7"),
+        },
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -493,6 +541,12 @@ export const lyfPubkeyConfig = {
         strategyBorrowCreditAccount1: new PublicKey('FDXmN9SkJzFdM17SFnVsiAkHM8SbMVACrmBdTf5hW9JZ'),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("81Rz3i7MC9nHYo1vQg6kJM5hepjqb63Y1gnr3AkrD36D"),
+        },
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -589,6 +643,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -680,6 +737,14 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("AnLf8tVYCM816gmBjiy8n53eXKKEDydT5piYjjQDPgTB"),
+            pythPriceAccount1: new PublicKey("81Rz3i7MC9nHYo1vQg6kJM5hepjqb63Y1gnr3AkrD36D"),
+        },
+
+        switchboardOracleInfo: undefined,
+
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -766,6 +831,9 @@ export const lyfPubkeyConfig = {
         strategyBorrowCreditAccount1: new PublicKey('1nwhLYQ7moSeHM78Ax9xfv8uCxxTXP25vmFidrN2aEy'),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -854,6 +922,9 @@ export const lyfPubkeyConfig = {
         strategyBorrowCreditAccount1: new PublicKey('9sc3ifwgZ2KoRQHRAZbCWw9vmA4p1m3dh2FknbETWBRP'),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -1266,6 +1337,16 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("3NBReDRTLKMQEKiLD5tGcx4kXbTf88b7f2xLS9UuGjym"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("BjUgj6YCnFBZ49wF54ddBVA9qu8TeqkFtkbqmZcee8uW"),
+            switchboardPriceAccount1: new PublicKey("CUgoqwiQ4wCt6Tthkrgx5saAEpLBjPCdHshVa4Pbfcx2"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -1355,6 +1436,16 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("HZbMgtmXZ1xg4iTqQXDkD5u3PpSSdUHGUuVbyMYfKe5c"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("BjUgj6YCnFBZ49wF54ddBVA9qu8TeqkFtkbqmZcee8uW"),
+            switchboardPriceAccount1: new PublicKey("HNStfhaLnqwF2ZtJUizaA9uHDAVB976r2AgTUx9LrdEo"),
+        },
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -1490,6 +1581,16 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("BrFSNEpgjEyhXoPJBQcUboWkoDugmEgkUy214kH5hXRk"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG"),
+            pythPriceAccount1: new PublicKey("JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("GvDMxPzN1sCj7L26YDK2HnMRXEQmQ2aemov8YBtPS7vR"),
+            switchboardPriceAccount1: new PublicKey("HNStfhaLnqwF2ZtJUizaA9uHDAVB976r2AgTUx9LrdEo"),
+        },
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -1630,6 +1731,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -1764,6 +1868,9 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("69C2ThyqGqfY3Upuz5MzWGWZj835WGNYPxwpaVqCa6tr"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -1900,6 +2007,16 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("BjUgj6YCnFBZ49wF54ddBVA9qu8TeqkFtkbqmZcee8uW"),
+            switchboardPriceAccount1: new PublicKey("HNStfhaLnqwF2ZtJUizaA9uHDAVB976r2AgTUx9LrdEo"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -2034,6 +2151,9 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("FPrzvByxbVJg4hjGS9CV2CJPyBFqmSPCQv4iofpHAea1"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -2389,6 +2509,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -2523,6 +2646,10 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("urSvCgPFpGQ2kxvxzDZcocqFLruKbTHPAhjrNSXy7yf"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -2659,6 +2786,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -2794,6 +2924,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -2883,6 +3016,10 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -2968,6 +3105,10 @@ export const lyfPubkeyConfig = {
         strategyBorrowCreditAccount1: new PublicKey('GASEhkWnRsKRZhvXtcCBpgMVbAKCrYkS7BksUCZiLZG7'),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -3146,6 +3287,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -3231,6 +3375,9 @@ export const lyfPubkeyConfig = {
         strategyBorrowCreditAccount1: new PublicKey('7dKToabrk8MwEG8qLYWFdihH66EngdqmriCj6GVBsSu'),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -3320,6 +3467,9 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("AbGGZGfueoenMsKSYGvH2AxGkaP3zo8GHExAjJckvtTK"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -3432,6 +3582,16 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("88NCYVzm9kXCkNFrQgACyeHRnPYWuUKx7ePC4HeTkCps"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("BjUgj6YCnFBZ49wF54ddBVA9qu8TeqkFtkbqmZcee8uW"),
+            switchboardPriceAccount1: new PublicKey("GvDMxPzN1sCj7L26YDK2HnMRXEQmQ2aemov8YBtPS7vR"),
+        },
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -3569,6 +3729,16 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL"),
+            pythPriceAccount1: new PublicKey("H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("ETAaeeuQBwsh9mC2gCov9WdhJENZuffRMXY2HgjCcSL9"),
+            switchboardPriceAccount1: new PublicKey("GvDMxPzN1sCj7L26YDK2HnMRXEQmQ2aemov8YBtPS7vR"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -3705,6 +3875,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -3793,6 +3966,9 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("h3C8QMFxyo2PfUPUFdxyxiUNzaLmUAojxkHJKxw2TPw"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -3883,6 +4059,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -3971,6 +4150,16 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("866r3d49ZHJ3veXsTyxPXX5XpHbpVx8A8LedXf8fWhqV"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("Bt1hEbY62aMriY1SyQqbeZbm8VmSbQVGBFzSzMuVNWzN"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("BjUgj6YCnFBZ49wF54ddBVA9qu8TeqkFtkbqmZcee8uW"),
+            switchboardPriceAccount1: new PublicKey("9LNYQZLJG5DAyeACCTzBFG6H3sDhehP5xtYLdhrZtQkA"),
+        },
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -4106,6 +4295,16 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL"),
+            pythPriceAccount1: new PublicKey("Bt1hEbY62aMriY1SyQqbeZbm8VmSbQVGBFzSzMuVNWzN"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("ETAaeeuQBwsh9mC2gCov9WdhJENZuffRMXY2HgjCcSL9"),
+            switchboardPriceAccount1: new PublicKey("9LNYQZLJG5DAyeACCTzBFG6H3sDhehP5xtYLdhrZtQkA"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -4223,6 +4422,14 @@ export const lyfPubkeyConfig = {
         rewardMint: tokens["rayToken"].mint,
         rewardMintB:  tokens["mariandeToken"].mint,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("E4v1BBgoso9s64TQvmyownAVJbhbEPGyzA3qn4n46qj9"),
+        },
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("BjUgj6YCnFBZ49wF54ddBVA9qu8TeqkFtkbqmZcee8uW"),
+            switchboardPriceAccount1: new PublicKey("5dsZFQtKzHnH1i5VnwSto9GLAd2NttyxcCUiLVxPeQV"),
+        },
         strategyAccount: new PublicKey('3uNuqHSwYDHdZDoETJp6w7RuJLBMy1jj1dvfcJFtEmhS'),
         strategyAuthority: new PublicKey('9ZRbM3779rTwPajZyLaEwZE1Dgh2bJh329RNuKtExjZV'),
         strategyFarmInfo: new PublicKey('FQ2y3AFW8USHKgky4kZiUokeo5pvzpRMm7sNfHZWnusx'),
@@ -4377,6 +4584,15 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL"),
+            pythPriceAccount1: new PublicKey("E4v1BBgoso9s64TQvmyownAVJbhbEPGyzA3qn4n46qj9"),
+        },
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("ETAaeeuQBwsh9mC2gCov9WdhJENZuffRMXY2HgjCcSL9"),
+            switchboardPriceAccount1: new PublicKey("5dsZFQtKzHnH1i5VnwSto9GLAd2NttyxcCUiLVxPeQV"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -4513,6 +4729,12 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD"),
+            pythPriceAccount1: new PublicKey("3bNH7uDsap5nzwhCvv98i7VshjMagtx1NXTDBLbPYD66"),
+        },
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -4602,6 +4824,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -4690,6 +4915,16 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("D3LPBLR5xfi3FTsVxUYWYcEYdjdHXYqSeCQ18ci5JqVr"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Bt1hEbY62aMriY1SyQqbeZbm8VmSbQVGBFzSzMuVNWzN"),
+            pythPriceAccount1: new PublicKey("GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("9LNYQZLJG5DAyeACCTzBFG6H3sDhehP5xtYLdhrZtQkA"),
+            switchboardPriceAccount1: new PublicKey("EEj2j1CvsaPWsTof6ySv6Q79xR1erL9uo6coVokip5Rk"),
+        },
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -4805,6 +5040,16 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("Bt1hEbY62aMriY1SyQqbeZbm8VmSbQVGBFzSzMuVNWzN"),
+            pythPriceAccount1: new PublicKey("JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB"),
+        },
+
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("9LNYQZLJG5DAyeACCTzBFG6H3sDhehP5xtYLdhrZtQkA"),
+            switchboardPriceAccount1: new PublicKey("HNStfhaLnqwF2ZtJUizaA9uHDAVB976r2AgTUx9LrdEo"),
+        },
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -4918,6 +5163,14 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: undefined,
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+        pythOracleInfo: {
+            pythPriceAccount0: new PublicKey("JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB"),
+            pythPriceAccount1: new PublicKey("AnLf8tVYCM816gmBjiy8n53eXKKEDydT5piYjjQDPgTB"),
+        },
+        switchboardOracleInfo: {
+            switchboardPriceAccount0: new PublicKey("HNStfhaLnqwF2ZtJUizaA9uHDAVB976r2AgTUx9LrdEo"),
+            switchboardPriceAccount1: new PublicKey("2oALNZVi5czyHvKbnjE4Jf2gR7dNp1FBpEGaq4PzVAf7"),
+        },
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
@@ -5013,6 +5266,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -5107,6 +5363,8 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -5223,6 +5481,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -5310,6 +5571,9 @@ export const lyfPubkeyConfig = {
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
 
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
+
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
             marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
@@ -5396,6 +5660,9 @@ export const lyfPubkeyConfig = {
         strategyRewardsSwapTargetB: new PublicKey("GHoiEm1DsS8PbEsJ16UjcCVerN9reEiToN4HNpaZLvtF"),
 
         stakeUserFarmInfoLayout: USER_STAKE_INFO_ACCOUNT_LAYOUT_V4,
+
+        pythOracleInfo: undefined,
+        switchboardOracleInfo: undefined,
 
         lendingPoolConfig: {
             programId: new PublicKey("FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj"),
