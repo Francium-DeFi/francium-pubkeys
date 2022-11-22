@@ -443,8 +443,8 @@
   "GRAPE-USDC": {
     "needsLiquidate": true,
     "needsCompound": true,
-    "protocolVersion": undefined,
-    "protocolSubVersion": undefined,
+    "protocolVersion": 1,
+    "protocolSubVersion": 2,
     "programId": "2nAAsYdXF3eTQzaeUQS3fr4o782dDg8L28mX39Wr5j8N",
     "tknMint0": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
     "tknMint1": "8upjSpvjcdpuzhfR1zriwg5NXkwDruejqNE9WNbPRtyA",
