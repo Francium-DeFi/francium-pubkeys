@@ -3362,7 +3362,7 @@
         "fields": [
           {
             "name": "latestPrice",
-            "type": "f64"
+            "type": "u64"
           },
           {
             "name": "priceAccount",
