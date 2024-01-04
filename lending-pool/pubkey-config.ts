@@ -1385,4 +1385,24 @@ export const LendingPoolConfig = {
             farmingPoolRewardsTknAccountB: new PublicKey('8CHYivAkcJo8V56bcVaBmKQjLAydtLc9aXiyiyWCfk1U'),
         },
     },
+
+    'WIF': {
+        programId : lendingPoolProgramId,
+        marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+        marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+        marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
+
+        tknMint: tokens.WIF.mint,
+        interestModel: interestModelCase1,
+        lookupTableAddress:  new PublicKey("EaVZqj9ogxLe1j5w5XGeptCDjcSPsMtjLh4KEVpLcvt6"),
+
+        lendingPoolInfoAccount: new PublicKey('94R9kreGNYLYiALEJVsosXyrAKAsWzY8hu88pPvKEwrJ'),
+        lendingPoolTknAccount: new PublicKey('CaBKNCjweSp1aa1TULQUdgn5vT7FtjbgJULCgH7cU53s'),
+        lendingPoolShareMint: new PublicKey('ADYL5nKBAoTWR32GqgFsdJsKg21zEWp8UKNn5mBM8fgu'),
+        lendingPoolShareAccount: new PublicKey('8pYosNLWaHCkGBVDDd4tPvLB3vxQ3997SZLBQNbNJgVn'),
+        lendingPoolCreditMint: new PublicKey('7rA6NpH7vLywUBADcCLTeoFgfxQwKBthkkYnzFBZESv'),
+        lendingPoolCreditAccount: new PublicKey('28pio9eBkq3j449w2MQVqeYsxqcLgYcXPiCCbsAcQhk1'),
+        lendingPoolFeeAccount: new PublicKey('EkyDCdfVUjWNKhFK21TuQ3DVkjV5wpG1kdHqZwmnKe37'),
+    },
+
 }

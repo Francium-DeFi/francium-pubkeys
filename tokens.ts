@@ -520,6 +520,15 @@ export const tokens = {
         cgId: "",
     },
 
+    WIF: {
+        tag: 'WIF',
+        name: 'WIF',
+        mint: new PublicKey("EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm"),
+        scale: 6,
+        cgId: "dogwifhat"
+    },
+
+
 }
 
 export function getTokenMint(tag) {
