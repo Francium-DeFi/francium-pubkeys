@@ -527,7 +527,53 @@ export const tokens = {
         scale: 6,
         cgId: "dogwifhat"
     },
+    SILLY: {
+        tag: 'SILLY',
+        name: 'SILLY',
+        mint: new PublicKey("7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs"),
+        scale: 6,
+        cgId: "silly-dragon"
+    },
 
+    MYRO: {
+        tag: 'MYRO',
+        name: 'MYRO',
+        mint: new PublicKey("HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4"),
+        scale: 9,
+        cgId: "myro"
+    },
+
+    HXD: {
+        tag: 'HXD',
+        name: 'HXD',
+        mint: new PublicKey("3dgCCb15HMQSA4Pn3Tfii5vRk7aRqTH95LJjxzsG2Mug"),
+        scale: 9,
+        cgId: "honeyland"
+    },
+
+    MPLX: {
+        tag: 'MPLX',
+        name: 'MPLX',
+        mint: new PublicKey("METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m"),
+        scale: 6,
+        cgId: "metaplex"
+    },
+
+    NOS: {
+        tag: 'NOS',
+        name: 'NOS',
+        mint: new PublicKey("nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7"),
+        scale: 6,
+        cgId: "nosana"
+    },
+
+    HNT: {
+        tag: 'HNT',
+        name: 'HNT',
+        mint: new PublicKey("hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux"),
+        scale: 8,
+        cgId: "helium"
+    },
 
 }
 
