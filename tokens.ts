@@ -531,7 +531,7 @@ export const tokens = {
         tag: 'SILLY',
         name: 'SILLY',
         mint: new PublicKey("7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs"),
-        scale: 6,
+        scale: 9,
         cgId: "silly-dragon"
     },
 
