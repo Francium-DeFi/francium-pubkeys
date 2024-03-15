@@ -575,6 +575,39 @@ export const tokens = {
         cgId: "helium"
     },
 
+    POPCAT: {
+        tag: 'POPCAT',
+        name: 'POPCAT',
+        mint: new PublicKey("7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"),
+        scale: 9,
+        cgId: "popcat"
+    },
+
+    SMOG: {
+        tag: 'SMOG',
+        name: 'SMOG',
+        mint: new PublicKey("FS66v5XYtJAFo14LiPz5HT93EUMAHmYipCfQhLpU4ss8"),
+        scale: 6,
+        cgId: "smog"
+    },
+
+    PONKE: {
+        tag: 'PONKE',
+        name: 'PONKE',
+        mint: new PublicKey("5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC"),
+        scale: 9,
+        cgId: "ponke"
+    },
+
+    BOME: {
+        tag: 'BOME',
+        name: 'BOME',
+        mint: new PublicKey("ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82"),
+        scale: 6,
+        cgId: "book-of-meme"       
+    },
+
+
 }
 
 export function getTokenMint(tag) {
