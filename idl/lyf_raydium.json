@@ -674,7 +674,7 @@
         },
         {
           "name": "ammAuthority",
-          "isMut": true,
+          "isMut": false,
           "isSigner": false
         },
         {
@@ -805,7 +805,7 @@
         },
         {
           "name": "ammAuthority",
-          "isMut": true,
+          "isMut": false,
           "isSigner": false
         },
         {
@@ -941,7 +941,7 @@
         },
         {
           "name": "ammAuthority",
-          "isMut": true,
+          "isMut": false,
           "isSigner": false
         },
         {
@@ -2263,7 +2263,7 @@
         },
         {
           "name": "ammAuthority",
-          "isMut": true,
+          "isMut": false,
           "isSigner": false
         },
         {
@@ -2384,7 +2384,7 @@
         },
         {
           "name": "ammAuthority",
-          "isMut": true,
+          "isMut": false,
           "isSigner": false
         },
         {
@@ -2513,7 +2513,7 @@
         },
         {
           "name": "ammAuthority",
-          "isMut": true,
+          "isMut": false,
           "isSigner": false
         },
         {
@@ -2594,6 +2594,11 @@
           "isSigner": false
         },
         {
+          "name": "stakeProgramId",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
           "name": "stakePoolId",
           "isMut": false,
           "isSigner": false
@@ -2604,7 +2609,33 @@
           "isSigner": false
         }
       ],
-      "args": []
+      "args": [
+        {
+          "name": "stakeVersion",
+          "type": "u8"
+        }
+      ]
+    },
+    {
+      "name": "adminUpdateProtocolVersion",
+      "accounts": [
+        {
+          "name": "admin",
+          "isMut": false,
+          "isSigner": true
+        },
+        {
+          "name": "strategyState",
+          "isMut": true,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "version",
+          "type": "u8"
+        }
+      ]
     },
     {
       "name": "adminUpdateMaxLeverage",
@@ -2723,6 +2754,73 @@
           "type": "u64"
         }
       ]
+    },
+    {
+      "name": "adminSetWithdrawFee",
+      "accounts": [
+        {
+          "name": "admin",
+          "isMut": false,
+          "isSigner": true
+        },
+        {
+          "name": "strategyState",
+          "isMut": true,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "fee",
+          "type": "u16"
+        }
+      ]
+    },
+    {
+      "name": "adminCollectFee",
+      "accounts": [
+        {
+          "name": "admin",
+          "isMut": false,
+          "isSigner": true
+        },
+        {
+          "name": "strategyState",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "strategyAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "adminTknAccount0",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "adminTknAccount1",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "strategyTknAccount0",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "strategyTknAccount1",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "tokenProgramId",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": []
     },
     {
       "name": "adminBurnBorrowCredit",
@@ -3085,11 +3183,27 @@
             "type": "publicKey"
           },
           {
+            "name": "stakeVersion",
+            "type": "u8"
+          },
+          {
+            "name": "withdrawFee",
+            "type": "u16"
+          },
+          {
+            "name": "accumulatedFee0",
+            "type": "u64"
+          },
+          {
+            "name": "accumulatedFee1",
+            "type": "u64"
+          },
+          {
             "name": "padding0",
             "type": {
               "array": [
                 "u8",
-                32
+                13
               ]
             }
           }
