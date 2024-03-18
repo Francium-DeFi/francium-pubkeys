@@ -1705,4 +1705,35 @@ export const LendingPoolConfig = {
         }
     },
 
+
+    'SLERF': {
+        programId : lendingPoolProgramId,
+        marketInfoAccount: new PublicKey("4XNif294wbrxj6tJ8K5Rg7SuaEACnu9s2L27i28MQB6E"),
+        marketAuthority: new PublicKey("sCDiYj7X7JmXg5fVq2nqED2q1Wqjo7PnqMgH3casMem"),
+        marketOwner : new PublicKey("7MBLg6oV5phip11YBbJPuq7u38kdzSi9PM3BifKSpLaR"),
+
+        tknMint: tokens.SLERF.mint,
+        interestModel: interestModelCase1,
+
+        lookupTableAddress: new PublicKey('FzQVYhNHTMQbLNPLbD6HQg6ar9RMuDfsPvoaJxpbXdPP'),
+        lendingPoolInfoAccount: new PublicKey('G2FUDq9i9rB7MFDMJL7sMc58J9ayEsGSCHV2pj5C1HQB'),
+        lendingPoolTknAccount: new PublicKey('D4mb1Z1YyoQHdaGjvip9SiRuEeRUJ72oFSWP7EEw8ERE'),
+        lendingPoolShareMint: new PublicKey('9HeYsKLzgddQHmrjvYEejfLqynKLptPKUcfuz5k71WzQ'),
+        lendingPoolShareAccount: new PublicKey('5VNjERwsH2L8qtnFiLJyJnuVZwEkJ5s6nNF3BzmDwFMm'),
+        lendingPoolCreditMint: new PublicKey('FLzaXFxjuQjv8mZSGAPA5ujYq9udtipGoPmawjCXPDtB'),
+        lendingPoolCreditAccount: new PublicKey('G7198jH4gD6mP44asqmmc2vaMbu8C34umspKFB6hQRF'),
+        lendingPoolFeeAccount: new PublicKey('GqnW7ao2ZUnkJYXocPgenEmjnHDr6WSnGrVbQ1G4YGDH'),
+        
+        rewardsPool: {
+            farmingPoolAccount: new PublicKey('B2h83Ekc31dNtwgoM9XBkrA4WPxRuGoRxtpXwgxLvSSG'),
+            farmingPoolAuthority: new PublicKey('AYempiqDhqRYLuMPrHs6oenJfyANwuogetc41caJv9qq'),
+            farmingPoolStakeTknMint: new PublicKey('9HeYsKLzgddQHmrjvYEejfLqynKLptPKUcfuz5k71WzQ'),
+            farmingPoolStakeTknAccount: new PublicKey('EXhA6aWjJkiXHrHJQ4nceRY94cpJFAnHmEg82EGVk8tn'),
+            farmingPoolRewardsTknMint: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccount: new PublicKey('7LfZvtvGSo6qeGvZxqPAyB5yQ87eUrEeSi9vZmF8agWP'),
+            farmingPoolRewardsTknMintB: new PublicKey('Hjibp1cn2bSk1dkTdpbxez3YAiBGTLjzc8xZ8LbCCUHS'),
+            farmingPoolRewardsTknAccountB: new PublicKey('9WrMB5bXKRHGkRpP8vNMqMtYB1Z5kuHHKwSt6Js9ywgK'),
+        }
+    },
+
 }

@@ -607,6 +607,13 @@ export const tokens = {
         cgId: "book-of-meme"       
     },
 
+    SLERF: {
+        tag: 'SLERF',
+        name: 'SLERF',
+        mint: new PublicKey("7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3"),
+        scale: 9,
+        cgId: "slerf"       
+    },
 
 }
 
