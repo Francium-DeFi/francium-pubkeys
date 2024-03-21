@@ -615,6 +615,38 @@ export const tokens = {
         cgId: "slerf"       
     },
 
+    "$NAP": {
+        tag: '$NAP',
+        name: '$NAP',
+        mint: new PublicKey("4G86CMxGsMdLETrYnavMFKPhQzKTvDBYGMRAdVtr72nu"),
+        scale: 6,
+        cgId: ""    
+    },
+
+    'LIKE-1': {
+        tag: 'LIKE-1',
+        name: 'LIKE-1',
+        mint: new PublicKey("CJMihkPYswa3k6az9SUbepjKnkJQ6KWpGG5p9qW9n7NV"),
+        scale: 9,
+        cgId: ""    
+    },
+
+    SHROOM: {
+        tag: 'SHROOM',
+        name: 'SHROOM',
+        mint: new PublicKey("xyzR4s6H724bUq6q7MTqWxUnhi8LM5fiKKUq38h8M1P"),
+        scale: 9,
+        cgId: ""    
+    },
+
+    SMOLE: {
+        tag: 'SMOLE',
+        name: 'SMOLE',
+        mint: new PublicKey("9Ttyez3xiruyj6cqaR495hbBkJU6SUWdV6AmQ9MvbyyS"),
+        scale: 6,
+        cgId: ""    
+    },
+
 }
 
 export function getTokenMint(tag) {
