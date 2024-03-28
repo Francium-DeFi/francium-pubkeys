@@ -646,6 +646,21 @@ export const tokens = {
         scale: 6,
         cgId: ""    
     },
+    PUNDU: {
+        tag: "PUNDU",
+        name: "PUNDU",
+        mint: new PublicKey("WskzsKqEW3ZsmrhPAevfVZb6PuuLzWov9mJWZsfDePC"),
+        scale: 9,
+        cgId: ""
+    },
+
+    MEW: {
+        tag: "MEW",
+        name: "MEW",
+        mint: new PublicKey("MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"),
+        scale: 5,
+        cgId: ""
+    },
 
 }
 
