@@ -662,6 +662,14 @@ export const tokens = {
         cgId: ""
     },
 
+    MANEKI: {
+        tag: "MANEKI",
+        name: "MANEKI",
+        mint: new PublicKey("25hAyBQfoDhfWx9ay6rarbgvWGwDdNqcHsXS3jQ3mTDJ"),
+        scale: 5,
+        cgId: ""
+    },
+
 }
 
 export function getTokenMint(tag) {
